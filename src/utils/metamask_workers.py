@@ -64,7 +64,7 @@ class Loginner(Base):
 
 
 @dataclass
-class NotworkChanger(Base):
+class NetworkChanger(Base):
     network_name: str = 'Polygon'
 
     def change_network(self):
@@ -157,7 +157,7 @@ class MetaMaskExtension(ExtensionMixin):
 class MetaMaskWorker(
     UrlLoader,
     Loginner,
-    NotworkChanger,
+    NetworkChanger,
     CurrencyChanger,
     MetaMaskExtension
 ):
