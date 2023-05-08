@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "webauto"
+version = "0.1.0"
+description = ""
+authors = ["Yusif"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.9.0"
+selenium-stealth = "^1.0.6"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
